@@ -1,0 +1,47 @@
+appId: com.draftr.app
+productName: Draftr
+copyright: Copyright © 2025 Draftr
+
+directories:
+  buildResources: resources
+  output: dist
+
+# Files to include in the package
+files:
+  - out/**/*
+  - package.json
+  - node_modules/better-sqlite3/**/*
+
+# Unpack native .node binaries from the asar archive so they can be loaded
+asarUnpack:
+  - "**/*.node"
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  executableName: Draftr
+  artifactName: "${productName} Setup ${version}.${ext}"
+  # No code signing certificate — skip signing step entirely
+  sign: false
+
+nsis:
+  # Full wizard installer (not one-click)
+  oneClick: false
+  # User-level install — no UAC elevation required
+  perMachine: false
+  allowElevation: true
+  # Let the user choose the install directory
+  allowToChangeInstallationDirectory: true
+  # Shortcuts
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Draftr
+  uninstallDisplayName: Draftr
+  # License agreement screen (file lives in buildResources/)
+  license: LICENSE.txt
+  # Launch app when installer finishes
+  runAfterFinish: true
+  # Keep user data (SQLite DB) on uninstall
+  deleteAppDataOnUninstall: false

@@ -1,0 +1,38 @@
+END USER LICENSE AGREEMENT
+Draftr — Version 1.0.0
+
+PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING DRAFTR.
+
+By installing or using Draftr, you agree to be bound by the terms of this
+End User License Agreement ("Agreement"). If you do not agree to these terms,
+do not install or use this software.
+
+1. LICENSE GRANT
+   Draftr grants you a personal, non-exclusive, non-transferable license to
+   install and use this software on devices you own or control.
+
+2. RESTRICTIONS
+   You may not: (a) copy, modify, or distribute this software; (b) reverse
+   engineer, decompile, or disassemble this software; (c) rent, lease, or
+   lend this software to any third party.
+
+3. DATA & PRIVACY
+   All proposal data, API keys, and company information are stored locally on
+   your device. Draftr does not transmit personal data to any server except
+   when you explicitly use AI generation features (which contact Anthropic's
+   API using your own API key).
+
+4. DISCLAIMER OF WARRANTIES
+   THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. DRAFTR
+   DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+5. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL DRAFTR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+   OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE.
+
+6. TERMINATION
+   This license is effective until terminated. It terminates automatically if
+   you fail to comply with any term of this Agreement.
+
+Copyright (c) 2025 Draftr. All rights reserved.
